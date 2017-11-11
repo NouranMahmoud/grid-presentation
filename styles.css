@@ -1,0 +1,113 @@
+/*My own styles*/
+body {
+  background: radial-gradient(#f0f0f0, #f2bcbc);
+}
+
+#user-content-farewell-float-the-future-of-css-layout {
+  color: #5757a9;
+  font-family: cursive;
+  text-shadow: 1px 1px #dcdcf9;
+}
+
+#user-content-nouran-mahmoud-marouf {
+  text-align: center;
+  color: #727272;
+}
+
+#user-content-frontend-engineer-at-cognitev {
+  text-align: center;
+  color: #515151;
+  margin-top: -14px;
+}
+
+#user-content-first-to-understand-css-layout-and-the-mess-it-is-today-were-going-to-go-back-in-time {
+  text-align: center;
+  color: #727272;
+}
+
+#step-5 p img, #step-6 p img, #step-14 p img {
+  height: 57vh;
+  width: 100vh;
+}
+
+
+#step-9 table{
+  display: table;
+  margin: 0 auto;
+}
+
+#step-19,
+#step-20,
+#step-26 {
+  text-align: center;
+}
+
+#step-19 > div,
+#step-19 > p,
+#step-20 > div,
+#step-20 > p,
+#step-26 > div,
+#step-26 > p {
+  display: inline-block;
+}
+
+#step-19 > div,
+#step-20 > div,
+#step-26 > div {
+  vertical-align: top;
+  text-align: left;
+}
+
+
+
+/*#step-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "div img";
+}
+
+#step-5 h1 {
+  grid-area: header;
+}
+
+#step-5 div {
+  grid-area: div;
+}
+
+#step-5 p {
+  grid-area: img;
+}*/
+
+h1 {
+  color: #5757a9;
+}
+
+h2 {
+  text-align: center;
+}
+
+p > img {
+  width: 75vh;
+}
+
+.step {
+  opacity: 0.05;
+  background: #f2bcbc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+p {
+  text-align: center;
+}
+
+ul, p {
+  color: #727272;
+}
+
+a {
+  color: white;
+}
