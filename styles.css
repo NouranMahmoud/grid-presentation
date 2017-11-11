@@ -47,7 +47,7 @@ body {
 
 #step-19,
 #step-20,
-#step-26 {
+#step-27 {
   text-align: center;
 }
 
@@ -55,14 +55,14 @@ body {
 #step-19 > p,
 #step-20 > div,
 #step-20 > p,
-#step-26 > div,
-#step-26 > p {
+#step-27 > div,
+#step-27 > p {
   display: inline-block;
 }
 
 #step-19 > div,
 #step-20 > div,
-#step-26 > div {
+#step-27 > div {
   vertical-align: top;
   text-align: left;
 }
@@ -75,6 +75,13 @@ body {
   width: 100vh;
 }
 
+#step-29 p img {
+  width: 100vh;
+}
+
+#step-29 h1 {
+  font-family: cursive;
+}
 
 
 /*#step-5 {

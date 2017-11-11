@@ -292,6 +292,10 @@ body {
 [Wesbos]()
 
 -----------
+# Thank You
+![happy minions](http://i.imgur.com/xmBjXcm.gif)
+
+-----------
 
 ## Resources
 
