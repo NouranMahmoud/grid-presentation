@@ -40,6 +40,11 @@ body {
   text-align: left;
 }
 
+#step-10 p img {
+  margin: 0 auto;
+  display: block;
+}
+
 #step-19,
 #step-20,
 #step-26 {
@@ -64,6 +69,10 @@ body {
 
 #step-21 img {
   width: 75vh;
+}
+
+#step-22 img {
+  width: 100vh;
 }
 
 
@@ -91,6 +100,7 @@ body {
 
 h1 {
   color: #5757a9;
+  text-shadow: 1px 1px #aaa;
 }
 
 h2 {
@@ -113,11 +123,12 @@ p {
 }
 
 ul, p {
-  color: #727272;
+  color: #555;
 }
 
 a {
   color: white;
+  text-shadow: 1px 1px #555;
 }
 
 p strong{

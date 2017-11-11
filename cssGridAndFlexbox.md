@@ -12,7 +12,7 @@
 markpress-opt-->
 # Farewell Float: The future of CSS layout
 
-## Nouran Mahmoud Marouf
+## Nouran Mahmoud Maarouf
 
 ### Frontend Engineer at Cognitev
 
@@ -61,7 +61,7 @@ markpress-opt-->
 
 **CSS Multi-column Layout**
 
-Just like in newspapers. `column-count: 2`, `column-width: 45px;`, `column-gap: 0`, `column-rule: thin solid black;`
+Just like in newspapers. `column-count: 3`, `column-width: 50px;`, `column-gap: 0`, `column-rule: thin solid black;`
 
 ![multi column layout](multi-columns.png)
 
@@ -92,8 +92,9 @@ You can create grid systems and control the positioning of grid items purely thr
 | Content out | Layout in |
 | Responsive (Fexible and Fluid) [flex-basis, flex-wrap] | Responsive (Fexible and Fluid) [minmax, fr] |
 |Space distribution | Space distribution |
-| No Gaps (Gutters) | No Gaps (Gutters) |
-| Horizontal Alignment for all items | Horizontal Alignment for all items |
+| No Gaps (Gutters) | Gaps (Gutters) |
+| Support Logical Values | Support Logical Values |
+| Horizontal Alignment for content only | Horizontal Alignment for all items and content |
 | No Horizontal Alignment for individual items | Horizontal Alignment for individual items |
 |Vertical Alignments for all items and individual items | Vertical Alignments for all items and individual items |
 
@@ -101,6 +102,8 @@ You can create grid systems and control the positioning of grid items purely thr
 # CSS Box Alignment Specification
  
 ##Remember the hellish ordeal of Vertical Alignment?
+
+![disaster](imgs/disaster-girl.jpg)
 
 The new specification includes **content distribution** and **self-alignment** features that can be applied to block elements either in Flexbox or Grids.
 
@@ -198,6 +201,10 @@ container {
 
 ------
 # Can I use it?
+
+![happy girl](imgs/bubbles.gif)
+
+---------
 
 ![can I use grid](grid-support.png)
 ![can I use flexbox](flexbox-support.png)
