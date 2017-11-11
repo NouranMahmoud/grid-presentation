@@ -99,17 +99,17 @@ You can create grid systems and control the positioning of grid items purely thr
 
 ------------
 # CSS Box Alignment Specification
-Remember the hellish ordeal of Vertical Alignment?
+ 
+##Remember the hellish ordeal of Vertical Alignment?
 
 The new specification includes **content distribution** and **self-alignment** features that can be applied to block elements either in Flexbox or Grids.
 
-**Inline Axis** is referred to as the `Row Axis` in the `Grid` specification and in `Flexbox` as the `Main Axis`.
+**Inline Axis** is referred to as the `Row Axis` in the `Grid` specification and in `Flexbox` as the `Main Axis`. (`justify-items` and `justify-self`)
 
-(justify-items and justify-self)
 
-**Block Axis** is referred to as the `Column Axis` in the Grid specification and in Flexbox as the `Cross Axis` as it runs across the Main Axis.
+**Block Axis** is referred to as the `Column Axis` in the Grid specification and in Flexbox as the `Cross Axis` as it runs across the Main Axis. (`align-self` and `align-items`)
 
-(align-self and align-items)
+
 
 ------------
 # Flexbox Layout (Content out)
@@ -194,7 +194,7 @@ container {
 }
 ```
 
-![Responsive Layout](imgs/grid-responsive2.png "Responsive Layout")
+![Responsive Layout](imgs/grid-responsive2.jpg "Responsive Layout")
 
 ------
 # Can I use it?

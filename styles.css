@@ -36,6 +36,10 @@ body {
   margin: 0 auto;
 }
 
+#step-10 p {
+  text-align: left;
+}
+
 #step-19,
 #step-20,
 #step-26 {
@@ -56,6 +60,10 @@ body {
 #step-26 > div {
   vertical-align: top;
   text-align: left;
+}
+
+#step-21 img {
+  width: 75vh;
 }
 
 
@@ -90,7 +98,7 @@ h2 {
 }
 
 p > img {
-  width: 75vh;
+  width: 50vh;
 }
 
 .step {
@@ -110,4 +118,8 @@ ul, p {
 
 a {
   color: white;
+}
+
+p strong{
+  color: #9e458f;
 }
